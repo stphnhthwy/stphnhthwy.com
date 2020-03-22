@@ -240,5 +240,6 @@
       local('Eczar Bold '),
       url('./assets/type/files/Eczar-ExtraBold.ttf') format('truetype'), /* Super Modern Browsers */
   }
+  
 @tailwind utilities;
 
