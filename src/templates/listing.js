@@ -7,45 +7,20 @@ import SEO from "../components/SEO";
 import config from "../../data/SiteConfig";
 
 class Listing extends React.Component {
-  renderPaging() {
-    const { currentPageNum, pageCount } = this.props.pageContext;
-    const prevPage = currentPageNum - 1 === 1 ? "/" : `/${currentPageNum - 1}/`;
-    const nextPage = `/${currentPageNum + 1}/`;
-    const isFirstPage = currentPageNum === 1;
-    const isLastPage = currentPageNum === pageCount;
 
-    return (
-      <div className="paging-container">
-        {!isFirstPage && <Link to={prevPage}>Previous</Link>}
-        {[...Array(pageCount)].map((_val, index) => {
-          const pageNum = index + 1;
-          return (
-            <Link
-              key={`listing-page-${pageNum}`}
-              to={pageNum === 1 ? "/" : `/${pageNum}/`}
-            >
-              {pageNum}
-            </Link>
-          );
-        })}
-        {!isLastPage && <Link to={nextPage}>Next</Link>}
-      </div>
-    );
-  }
 
   render() {
     const postEdges = this.props.data.allMarkdownRemark.edges;
 
     return (
       <Layout>
-        <div className="text-4xl">Test</div>
-        <div className="listing-container">
-          <div className="posts-container">
+        <div className="container mx-auto mt-32 px-8">
+          <div className="">
             <Helmet title={config.siteTitle} />
             <SEO />
+            <h2 className="text-3xl">Thoughts</h2>
             <PostListing postEdges={postEdges} />
           </div>
-          {this.renderPaging()}
         </div>
       </Layout>
     );
@@ -54,7 +29,6 @@ class Listing extends React.Component {
 
 export default Listing;
 
-/* eslint no-undef: "off" */
 export const listingQuery = graphql`
   query ListingQuery($skip: Int!, $limit: Int!) {
     allMarkdownRemark(

@@ -1,5 +1,5 @@
 const config = {
-  siteTitle: "Portfolio of Stephen Hathaway", // Site title.
+  siteTitle: "Stephen Hathaway – Product Designer", // Site title.
   siteTitleShort: "Stephen Hathaway", // Short site title for homescreen (PWA). Preferably should be under 12 characters to prevent truncation.
   siteTitleAlt: "Portfolio of Stephen Hathaway", // Alternative site title for SEO.
   siteLogo: "/logos/logo-1024.png", // Logo used for SEO and manifest.
@@ -16,7 +16,7 @@ const config = {
   userEmail: "hello@stphnhthwy@gmail.com", // Email used for RSS feed's author segment
   userTwitter: "stphnhthwy", // Optionally renders "Follow Me" in the UserInfo segment.
   userLocation: "Boulder, Colorado", // User location to display in the author segment.
-  copyright: "Copyright © 2019. Advanced User", // Copyright string for the footer of the website and RSS feed.
+  copyright: "Copyright © 2020", // Copyright string for the footer of the website and RSS feed.
   themeColor: "#c62828", // Used for setting manifest and progress theme colors.
   backgroundColor: "#e0e0e0" // Used for setting manifest background color.
 };

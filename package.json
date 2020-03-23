@@ -1,6 +1,6 @@
 {
   "name": "stphnhthwy.com",
-  "description": "Personal website running on Gatsby, React, Talwind CSS, and Node.js",
+  "description": "Personal website powered by Gatsby, React, Talwind CSS, and Node.js",
   "version": "1.0.0",
   "author": "Stephen Hathaway <hello@stphnhthwy.com>",
   "repository": "git@github.com:stphnhthwy/stphnhthwy.com",

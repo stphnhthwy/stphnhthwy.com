@@ -1,6 +1,8 @@
 import React from "react";
 import Helmet from "react-helmet";
 import config from "../../data/SiteConfig";
+import Nav from "../components/Nav";
+import Footer from "../components/Footer";
 import "../tailwind.css";
 
 export default class MainLayout extends React.Component {
@@ -12,7 +14,9 @@ export default class MainLayout extends React.Component {
           <meta name="description" content={config.siteDescription} />
           <html lang="en" />
         </Helmet>
-        {children}
+        <Nav />
+        <main>{ children }</main>
+        <Footer />
       </div>
     );
   }

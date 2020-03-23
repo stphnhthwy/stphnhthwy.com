@@ -2,9 +2,7 @@ import React from "react";
 import Helmet from "react-helmet";
 import { graphql } from "gatsby";
 import Layout from "../layout";
-import UserInfo from "../components/UserInfo";
 import SEO from "../components/SEO";
-import Footer from "../components/Footer";
 import config from "../../data/SiteConfig";
 import "./b16-tomorrow-dark.css";
 
@@ -21,7 +19,7 @@ export default class PostTemplate extends React.Component {
     return (
       <div>
         <Layout>
-          <div className="markdown container mx-auto">
+          <div className="markdown container mt-40 mx-auto px-8">
             <Helmet>
               <title className="markdown">{`${post.title} | ${config.siteTitle}`}</title>
             </Helmet>
@@ -32,7 +30,6 @@ export default class PostTemplate extends React.Component {
             </div>
           </div>
         </Layout>
-        <Footer config={config} />
       </div>
     );
   }

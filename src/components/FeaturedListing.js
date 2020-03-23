@@ -1,0 +1,25 @@
+import React, { Component } from 'react'
+
+export default class FeaturedListing extends Component {
+  render() {
+    const { featured } = this.props
+
+    return (
+      <div>
+        {featured.map(featured => (
+            <a href="/" className="mt-4 xs:mt-8 px-5 w-full max-w-full lg:w-1/2 xl:w-1/2">
+              <div className="shadow-line-blue">
+                <div className="transition duration-200 ease-in-out bg-white border-2 border-blue-700 transform hover:-translate-x-1 hover:translate-y-1">
+                  <div className="p-8 xs:p-4">
+                    <h3 className="font-serif font-semibold text-black text-xl">{featured.title}</h3>
+                    <p className="mt-4 font-medium text-gray-700 leading-snug truncate-2-lines">{featured.descripton}</p>
+                    <div className="mt-8 inline-block text-sm font-semibold uppercase text-blue-600 tracking-wide">Learn more</div>
+                  </div>
+                </div>
+              </div>
+            </a>
+        ))}
+      </div>
+    )
+  }
+}
