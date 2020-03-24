@@ -15,7 +15,7 @@ export default class MainLayout extends React.Component {
           <html lang="en" />
         </Helmet>
         <Nav />
-        <main>{ children }</main>
+        <main>{children}</main>
         <Footer />
       </div>
     );

@@ -26,7 +26,10 @@ export default class PostTemplate extends React.Component {
             <SEO postPath={slug} postNode={postNode} postSEO />
             <div className="markdown">
               <h1 className="markdown">{post.title}</h1>
-              <div className="markdown" dangerouslySetInnerHTML={{ __html: postNode.html }} />
+              <div
+                className="markdown"
+                dangerouslySetInnerHTML={{ __html: postNode.html }}
+              />
             </div>
           </div>
         </Layout>

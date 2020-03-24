@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { Link } from "gatsby";
-import code from '../assets/img/code.svg';
-import heart from '../assets/img/heart.svg';
+import code from "../assets/img/code.svg";
+import heart from "../assets/img/heart.svg";
 
 class Footer extends Component {
   render() {

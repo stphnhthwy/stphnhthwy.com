@@ -12,9 +12,7 @@ export default class CategoryTemplate extends React.Component {
     return (
       <Layout>
         <div className="container mt-40 mx-auto px-8">
-          <Helmet
-            title={`Posts in category "${category}" | ${config.siteTitle}`}
-          />
+          <Helmet title={`Posts in "${category}" | ${config.siteTitle}`} />
           <PostListing postEdges={postEdges} />
         </div>
       </Layout>
