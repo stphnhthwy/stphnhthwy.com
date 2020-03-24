@@ -20,7 +20,7 @@ export default class FeaturedListing extends Component {
                   <p className="mt-4 font-medium text-gray-800 leading-snug truncate-2-lines">
                     {featured.descripton}
                   </p>
-                  <div className="mt-8 inline-block text-sm font-semibold uppercase text-blue-600 tracking-wide">
+                  <div className="mt-8 inline-block text-md font-semibold text-blue-600 tracking-wide">
                     Learn more
                   </div>
                 </div>

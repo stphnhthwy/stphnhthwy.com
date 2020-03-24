@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import Helmet from "react-helmet";
 import Layout from "../../layout";
-import About from "../../components/About";
+import PropertyInsights from "../../components/PropertyInsights";
 import config from "../../../data/SiteConfig";
 
 class CPIPage extends Component {
@@ -10,7 +10,7 @@ class CPIPage extends Component {
       <Layout>
         <div className="container mx-auto mt-32">
           <Helmet title={`Cognizant Property Insights | ${config.siteTitle}`} />
-          <About />
+          <PropertyInsights />
         </div>
       </Layout>
     );

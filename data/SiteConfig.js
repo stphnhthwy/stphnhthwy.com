@@ -16,9 +16,7 @@ const config = {
   userEmail: "hello@stphnhthwy@gmail.com", // Email used for RSS feed's author segment
   userTwitter: "stphnhthwy", // Optionally renders "Follow Me" in the UserInfo segment.
   userLocation: "Boulder, Colorado", // User location to display in the author segment.
-  copyright: "Copyright © 2020", // Copyright string for the footer of the website and RSS feed.
-  themeColor: "#c62828", // Used for setting manifest and progress theme colors.
-  backgroundColor: "#e0e0e0" // Used for setting manifest background color.
+  copyright: "Copyright © 2020" // Copyright string for the footer of the website and RSS feed.
 };
 
 // Validate
