@@ -46,7 +46,8 @@ module.exports = {
     },
     fontFamily: {
       sans: ["Work Sans"],
-      serif: ["Eczar"]
+      serif: ["Eczar"],
+      mono: ["Menlo, Monaco, Consolas, Liberation Mono, Courier New, monospace"]
     },
     truncate: {
       lines: {

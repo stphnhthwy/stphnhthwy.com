@@ -57,7 +57,7 @@ class Index extends Component {
             <div className="pl-4 mb-5 text-lg font-semibold text-gray-900 tracking-wide">
               Thoughts
             </div>
-              <PostListing postEdges={postEdges} />
+            <PostListing postEdges={postEdges} />
           </div>
         </div>
       </Layout>

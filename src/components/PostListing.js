@@ -22,12 +22,8 @@ class PostListing extends React.Component {
     const postList = this.getPostList();
     return (
       <div className="flex-col px-4">
-        {
-        postList.map(post => (
-          <Link
-            to={post.path}
-            key={post.title}
-          >
+        {postList.map(post => (
+          <Link to={post.path} key={post.title}>
             <h3 className="transition duration-200 ease-in-out mb-2 font-serif font-semibold text-blue-600 text-xl underline hover:text-blue-400">
               {post.title}
             </h3>

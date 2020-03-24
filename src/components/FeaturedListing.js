@@ -5,13 +5,12 @@ export default class FeaturedListing extends Component {
     const { featured } = this.props;
 
     return (
-    <div 
-    className="flex xs:flex-col sm:flex-col md:flex-col">
+      <div className="flex xs:flex-col sm:flex-col md:flex-col">
         {featured.map(featured => (
-        <a 
+          <a
             className="mb-5 xs:mb-8 sm:mb-8 md:mb-8 px-4 w-full lg:w-1/2 xl:w-1/2"
             href={featured.path}
-        >
+          >
             <div className="shadow-line-blue">
               <div className="transition duration-200 ease-in-out bg-white border-2 border-blue-700 transform hover:-translate-x-1 hover:translate-y-1">
                 <div className="p-8 xs:p-4">
@@ -27,9 +26,9 @@ export default class FeaturedListing extends Component {
                 </div>
               </div>
             </div>
-        </a>
+          </a>
         ))}
-    </div>
+      </div>
     );
   }
 }

@@ -1,7 +1,8 @@
 export default [
   {
     title: "Cognizant Property Insights",
-    descripton: "Providing roof damage analysis utilizing AI & Machine Learning.",
+    descripton:
+      "Providing roof damage analysis utilizing AI & Machine Learning.",
     path: "featured/cpi"
   },
   {
