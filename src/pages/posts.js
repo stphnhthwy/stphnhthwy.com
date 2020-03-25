@@ -11,7 +11,7 @@ class PostsPage extends Component {
     return (
       <Layout>
         <div className="container mx-auto mt-32">
-          <Helmet title={`All Posts | ${config.siteTitle}`} />
+          <Helmet title={`All Thoughts | ${config.siteTitle}`} />
           <div className="px-8">
             <h1 className="leading-tight text-3xl font-semibold font-serif">
               All Thoughts

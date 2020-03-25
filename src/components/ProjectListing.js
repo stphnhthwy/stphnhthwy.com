@@ -16,9 +16,11 @@ export default class ProjectListing extends Component {
             <div className="shadow-line-gray hover:hidden">
               <div className="transition duration-200 ease-in-out bg-white border-2 border-gray-600 transform hover:-translate-x-1 hover:translate-y-1">
                 <div className="p-8 xs:p-4">
-                  <h3 className="font-serif font-semibold text-black text-xl">
-                    {project.title}
-                  </h3>
+                  <div>
+                    <h3 className="font-serif font-semibold text-black text-xl">
+                      {project.title} 
+                    </h3>
+                  </div>
                   <p className="mt-4 font-medium text-gray-800 leading-snug truncate">
                     {project.descripton}
                   </p>
