@@ -13,6 +13,6 @@ export default [
     title: "cheerios",
     descripton:
       "A utility-first design system built with tailwindcss and styled-components.",
-    source: "https://github.com/stphnhthwy/cheerios",
+    source: "https://github.com/stphnhthwy/cheerios"
   }
 ];

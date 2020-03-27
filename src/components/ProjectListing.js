@@ -18,7 +18,7 @@ export default class ProjectListing extends Component {
                 <div className="p-8 xs:p-4">
                   <div>
                     <h3 className="font-serif font-semibold text-black text-xl">
-                      {project.title} 
+                      {project.title}
                     </h3>
                   </div>
                   <p className="mt-4 font-medium text-gray-800 leading-snug truncate">
