@@ -16,24 +16,13 @@ class Index extends Component {
     return (
       <Layout>
         <Helmet title={`${config.siteTitle} | Home`} />
-        <div className="container mx-auto xs:px-2 md:px-4 xl:px-10">
-          <div className="mt-40 xs:mt-32 flex items-center justify-center">
-            <div>
+        <div className="container mx-auto px-2">
+          <div className="mt-32 lg:mt-40 flex items-center justify-center">
+            <div className="px-6">
               <div className="flex flex-row items-center">
-                <div className="text-4xl lg:text-4xl md:text-3xl sm:text-2xl xs:text-3xl text-center text-blue-600 font-serif font-bold tracking-wide leading-relaxed">
-                  Stephen Hathaway is a design leader in Boulder,
-                  <br className="xs:hidden"></br>
-                  <span>
-                    currently at <br className="hidden sm:hidden"></br>
-                    <a
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      href="https://www.cognizant.com/accelerator"
-                      className="transition duration-300 ease-in-out hover:text-blue-400 "
-                    >
-                      Cognizant Accelerator.
-                    </a>
-                  </span>
+                <div className="text-3xl lg:text-4xl text-center text-blue-600 font-serif font-bold tracking-wide leading-relaxed">
+                  Stephen Hathaway is a design leader in Boulder, currently at
+                  Cognizant Accelerator.
                 </div>
               </div>
             </div>

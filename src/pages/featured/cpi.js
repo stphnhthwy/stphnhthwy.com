@@ -8,7 +8,7 @@ class CPIPage extends Component {
   render() {
     return (
       <Layout>
-        <div className="container mx-auto mt-32">
+        <div className="mt-16">
           <Helmet title={`Cognizant Property Insights | ${config.siteTitle}`} />
           <PropertyInsights />
         </div>
