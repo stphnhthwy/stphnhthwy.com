@@ -21,15 +21,11 @@ class PostListing extends React.Component {
   render() {
     const postList = this.getPostList();
     return (
-      <div className="grid grid-cols-1">
+      <div className="post-listing">
         {postList.map(post => (
           <Link to={post.path} key={post.title}>
-            <h3 className="transition duration-200 ease-in-out mb-2 font-serif font-semibold text-blue-600 text-xl underline hover:text-blue-400">
-              {post.title}
-            </h3>
-            <p className="mb-8 font-medium text-gray-800 leading-snug truncate-2-lines">
-              {post.excerpt}
-            </p>
+            <h3>{post.title}</h3>
+            <p>{post.excerpt}</p>
           </Link>
         ))}
       </div>

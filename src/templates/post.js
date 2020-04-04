@@ -4,7 +4,6 @@ import { graphql } from "gatsby";
 import Layout from "../layout";
 import SEO from "../components/SEO";
 import config from "../../data/SiteConfig";
-import "./b16-tomorrow-dark.css";
 
 export default class PostTemplate extends React.Component {
   render() {
@@ -24,10 +23,10 @@ export default class PostTemplate extends React.Component {
               <title>{`${post.title} | ${config.siteTitle}`}</title>
             </Helmet>
             <SEO postPath={slug} postNode={postNode} postSEO />
-            <div className="markdown">
+            <div className="markdown-body">
               <h1>{post.title}</h1>
               <div
-                className="markdown"
+                className="markdown-body"
                 dangerouslySetInnerHTML={{ __html: postNode.html }}
               />
             </div>
