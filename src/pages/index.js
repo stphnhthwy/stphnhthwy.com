@@ -15,7 +15,7 @@ class Index extends Component {
 
     return (
       <Layout>
-        <Helmet title={`${config.siteTitle} | Home`} />
+        <Helmet title={`${config.siteTitle}`} />
         <div className="container mx-auto px-2">
           <div className="mt-32 lg:mt-40 flex items-center justify-center">
             <div className="px-6">
