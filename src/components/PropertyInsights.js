@@ -24,7 +24,7 @@ class PropertyInsights extends Component {
             alt="Aerial image of a hurricane disaster zone."
           />
           <div className="max-w-4xl mx-auto mt-8 px-2 md:mt-12 md:px-6">
-            <h1 className="transition duration-200 ease-in-out text-blue-500 text-4xl md:text-6xl leading-tight font-serif font-bold hover:text-blue-400">
+            <h1 className="text-blue-500 text-4xl md:text-6xl leading-tight font-serif font-bold">
               Cognizant<br></br>Property Insights
             </h1>
             <h2 className="mt-4 text-gray-700 text-xl md:text-3xl leading-snug">
@@ -576,24 +576,44 @@ class PropertyInsights extends Component {
           </h3>
           <ul>
             <li className="mt-4">
-              <a href="" className="font-medium text-blue-600 hover:underline">
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://www.prnewswire.com/news-releases/new-cognizant-ai-insurance-claims-platform-enhances-processing-accuracy-and-customer-service-following-natural-disasters-300923455.html"
+                className="font-medium text-blue-600 hover:underline"
+              >
                 New Cognizant AI Insurance Claims Platform Enhances Processing,
                 Accuracy and Customer Service Following Natural Disasters
               </a>
             </li>
             <li className="mt-4">
-              <a href="" className="font-medium text-blue-600 hover:underline">
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://www.nsinsurance.com/news/cognizant/"
+                className="font-medium text-blue-600 hover:underline"
+              >
                 Cognizant introduces AI-powered solution for property insurers
               </a>
             </li>
             <li className="mt-4">
-              <a href="" className="font-medium text-blue-600 hover:underline">
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://www.cognizant.com/property-insights-ai-catastrophic-claims"
+                className="font-medium text-blue-600 hover:underline"
+              >
                 Cognizant Property Insights | Obtain damage information fast,
                 using aerial imagery and AI
               </a>
             </li>
             <li className="mt-4">
-              <a href="" className="font-medium text-blue-600 hover:underline">
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://www.cognizant.com/Resources/property-insights-brochure.pdf"
+                className="font-medium text-blue-600 hover:underline"
+              >
                 Cognizant Property Insights
               </a>
             </li>

@@ -18,7 +18,7 @@ export default class PostTemplate extends React.Component {
     return (
       <div>
         <Layout>
-          <div className=" max-w-4xl mt-32 mx-auto px-8">
+          <div className="max-w-3xl mt-32 mx-auto px-8 mb-32">
             <Helmet>
               <title>{`${post.title} | ${config.siteTitle}`}</title>
             </Helmet>

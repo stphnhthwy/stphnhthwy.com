@@ -4,7 +4,6 @@
 @import "./fonts.css";
 /* Components */
 @import "../components/postlisting.css";
-@import "../components/propertyinsights.css";
 @tailwind utilities;
 @import "./markdown.css";
 /* Move these to indiviudal component css file */
