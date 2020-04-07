@@ -1,20 +1,14 @@
 @tailwind base;
 @tailwind components;
-/* Base Styles */
 @import "./fonts.css";
-/* Components */
-@import "../components/postlisting.css";
-@tailwind utilities;
-@import "./markdown.css";
-/* Move these to indiviudal component css file */
 .shadow-line-blue {
   box-shadow: -0.5rem 0.5rem 0px 1px #749cf3;
 }
-
 .shadow-line-gray {
   box-shadow: -0.5rem 0.5rem 0px 1px #e2e4e8;
 }
-
-::selection{
-  @apply bg-yellow-200
+::selection {
+  @apply bg-yellow-200;
 }
+@import "./markdown.css";
+@tailwind utilities;

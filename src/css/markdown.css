@@ -243,7 +243,7 @@
 }
 
 .markdown-body p {
- @apply mt-4 pb-4 leading-relaxed text-gray-800 text-base;
+  @apply mt-4 pb-4 leading-relaxed text-gray-800 text-base;
 }
 
 .markdown-body blockquote {

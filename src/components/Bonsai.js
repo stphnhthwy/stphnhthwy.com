@@ -10,7 +10,6 @@ import bonCreate from "../assets/img/bon/bon-create.svg";
 import bonExtensible from "../assets/img/bon/bon-extensible.svg";
 import bonUnify from "../assets/img/bon/bon-unify.svg";
 
-
 class Bonsai extends Component {
   render() {
     return (
@@ -64,14 +63,15 @@ class Bonsai extends Component {
             <div className="grid grid-cols-1 md:grid-cols-3 col-gap-8 row-gap-8">
               <div>
                 <img
-                src={bonCreate}
-                alt="Aerial image of a hurricane disaster zone."
+                  src={bonCreate}
+                  alt="Aerial image of a hurricane disaster zone."
                 />
                 <h5 className="mt-8 text-lg leading-6 font-medium text-gray-900">
                   Create
                 </h5>
                 <p className="mt-2 text-base leading-6 text-gray-700">
-                Create a visual language, standard UX patterns, and coded components for the organization.
+                  Create a visual language, standard UX patterns, and coded
+                  components for the organization.
                 </p>
               </div>
               <div>
@@ -83,7 +83,8 @@ class Bonsai extends Component {
                   Unify
                 </h5>
                 <p className="mt-2 text-base leading-6 text-gray-700">
-                Build a single underlying system that unifies the user experience across multiple products.
+                  Build a single underlying system that unifies the user
+                  experience across multiple products.
                 </p>
               </div>
               <div>
@@ -95,7 +96,8 @@ class Bonsai extends Component {
                   Extensible
                 </h5>
                 <p className="mt-2 text-base leading-6 text-gray-700">
-                Develop a system of components that are extensible and able to be used across all products.
+                  Develop a system of components that are extensible and able to
+                  be used across all products.
                 </p>
               </div>
             </div>
@@ -106,17 +108,20 @@ class Bonsai extends Component {
             Patterns
           </h3>
           <p className="mt-2 text-gray-900 leading-loose">
-          Bonsai houses our library of UX Patterns in our Sketch files and coded assets stored in Storybook. Patterns provide behavior within a user interface to solve design problems through a unified design language. 
+            Bonsai houses our library of UX Patterns in our Sketch files and
+            coded assets stored in Storybook. Patterns provide behavior within a
+            user interface to solve design problems through a unified design
+            language.
           </p>
           <div className="mt-10">
-            <div className="grid grid-cols-1 md:grid-cols-3 col-gap-8">
+            <div className="grid grid-cols-1 md:grid-cols-3 col-gap-8 row-gap-8">
               <div>
                 <img
-                src={bonType}
-                alt="Aerial image of a hurricane disaster zone."
+                  src={bonType}
+                  alt="Aerial image of a hurricane disaster zone."
                 />
                 <p className="mt-4 text-base leading-6 text-gray-700">
-                Type system
+                  Type system
                 </p>
               </div>
               <div>
@@ -125,7 +130,7 @@ class Bonsai extends Component {
                   alt="Aerial image of a hurricane disaster zone."
                 />
                 <p className="mt-4 text-base leading-6 text-gray-700">
-                Color system
+                  Color system
                 </p>
               </div>
               <div>
@@ -134,7 +139,7 @@ class Bonsai extends Component {
                   alt="Aerial image of a hurricane disaster zone."
                 />
                 <p className="mt-4 text-base leading-6 text-gray-700">
-                Components
+                  Components
                 </p>
               </div>
             </div>
@@ -145,7 +150,10 @@ class Bonsai extends Component {
             Delivery
           </h3>
           <p className="mt-2 text-gray-900 leading-loose">
-          Bonsai houses our library of UX Patterns in our Sketch files and coded assets stored in Storybook. Patterns provide behavior within a user interface to solve design problems through a unified design language. 
+            Bonsai houses our library of UX Patterns in our Sketch files and
+            coded assets stored in Storybook. Patterns provide behavior within a
+            user interface to solve design problems through a unified design
+            language.
           </p>
           <div className="mt-6">
             <h4 className="text-gray-900 text-xl font-semibold">Design</h4>
@@ -174,7 +182,13 @@ class Bonsai extends Component {
             Conclusion
           </h3>
           <p className="mt-2 text-gray-900 leading-loose">
-          Bonsai has been a tremendous force in the progressive unification of our products. The Design Library has, become the epicenter of evangelizing design, interactions, and experiences across the org. Other than managing and creating an ever-changing need for patterns, it is expanding to evangelize Cognizant's design language, global standards, and also design strategy principles.</p>
+            Bonsai has been a tremendous force in the progressive unification of
+            our products. The Design Library has, become the epicenter of
+            evangelizing design, interactions, and experiences across the org.
+            Other than managing and creating an ever-changing need for patterns,
+            it is expanding to evangelize Cognizant's design language, global
+            standards, and also design strategy principles.
+          </p>
         </section>
       </div>
     );

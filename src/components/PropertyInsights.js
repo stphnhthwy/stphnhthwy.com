@@ -216,6 +216,7 @@ class PropertyInsights extends Component {
             <div className="flex items-center">
               <div className="flex w-1/3">
                 <img
+                  className="h-auto"
                   src={cpiManager}
                   alt="Aerial image of a hurricane disaster zone."
                 />

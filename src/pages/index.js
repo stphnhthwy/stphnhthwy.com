@@ -70,7 +70,7 @@ class Index extends Component {
             </div>
           </div>
 
-          <div className="mt-16 mb-24">
+          <div className="mt-10 mb-24">
             <div className="pl-4 mb-5 text-lg font-semibold text-gray-900 tracking-wide">
               Speaking
             </div>
@@ -98,7 +98,7 @@ export const pageQuery = graphql`
             slug
             date
           }
-          excerpt(pruneLength:500, truncate: false)
+          excerpt(pruneLength: 500, truncate: false)
           timeToRead
           frontmatter {
             title
