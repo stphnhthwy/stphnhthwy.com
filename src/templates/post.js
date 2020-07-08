@@ -18,15 +18,15 @@ export default class PostTemplate extends React.Component {
     return (
       <div>
         <Layout>
-          <div className="max-w-3xl mt-32 mx-auto px-8 mb-32">
+          <div className="markdown max-w-2xl mt-32 mx-auto px-8 mb-32">
             <Helmet>
               <title>{`${post.title} | ${config.siteTitle}`}</title>
             </Helmet>
             <SEO postPath={slug} postNode={postNode} postSEO />
-            <div className="markdown-body">
-              <h1>{post.title}</h1>
+            <div className="markdown">
+              <h1 className="markdown">{post.title}</h1>
               <div
-                className="markdown-body"
+                className="markdown"
                 dangerouslySetInnerHTML={{ __html: postNode.html }}
               />
             </div>
